@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../images/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px 760px;
+}
+/* NAVBAR */
+
+.navbar {
+    height: 130px;
+}
+
+.logo-image{
+    /* border: 1px solid red; */
+    height: 5%;
+    width: 6%;
+    margin-left: 1%;
+    margin-bottom: 7%;
+}
+.logo-image h3{
+    /* border: 1px solid white; */
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+.container-fluid{
+    border: 1px solid white;
+}
+
+
+/* .nav-item{
+    border: 1px solid red;
+}
+
+.navsearch{
+    border: 1px solid rgb(201, 15, 15);
+} */
+    
+
+/* NAVBAR */
+
+/* HEADER */
+.header{
+    background-color: whitesmoke;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+/* HEADER */
+
+/* CAROUSEL */
+
+.carousel-item{
+    /* border: 2px solid yellow; */
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    }
+    
+.carousel-item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.crsl1{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+/* CAROUSEL */
+
+/* FIND MORE */
+.findmore{
+    /* border: 1px solid white; */
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 630px;
+    margin-left: 615px;
+}
+
+.findmore a{
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+.findmore a:hover{
+    color: white;
+    background-color: black;
+}
+/* FIND MORE */
